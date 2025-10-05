@@ -29,6 +29,7 @@ namespace Tyuiu.ZakachurinIE.Sprint2.Task1.V16
             int d = 137;
             bool[] res = new bool[6];
             res = ds.GetLogicOperations(a, b, c, d);
+
             Console.WriteLine("a = " + a );
             Console.WriteLine("b = " + b);
             Console.WriteLine("c = " + c);
