@@ -24,6 +24,7 @@ namespace Tyuiu.ZakachurinIE.Sprint2.Task3.V5
             Console.WriteLine("Введите X =");
             int x = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Переменная Y =");
+
             Console.WriteLine(ds.Calculate(x));
             
         }
